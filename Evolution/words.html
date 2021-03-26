@@ -1,0 +1,1185 @@
+<!--
+
+THIS FILE HAS ABOUT 3,300 WORDS TO TRANSLATE
+
+TRANSLATION NOTES:
+
+When translating this thing, only edit the stuff that's BETWEEN the <tags>, like so:
+
+    <p id="still_english">hello</p>
+    =>
+    <p id="still_english">bonjour</p>
+
+Also, DON'T change anything between the [square brackets], like so:
+
+    Number #[N]
+    =>
+    Numero #[N]
+
+Exception to the "don't change tags" rule:
+Feel free to move around the italics & bold tags, so that the emphasis
+on the right phrases/words still makes sense!
+
+    <i>italics</i>
+    <b>bold</b>
+
+Also, some HTML weirdness you might want to know:
+
+    &amp; is an ampersand "&" sign
+    &#8226; is a dot
+    &rarr; is a rightward-facing arrow
+    &lt; is a "<" sign
+
+ALSO! I'd love for you to credit yourself as a translator!
+You can add your own name in the <p id="subtitle"> section
+
+Thanks again!
+~ Nicky Case
+
+-->
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - META STUFF - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="meta_title">
+Sự tiến hóa của lòng tin
+</p>
+<p id="meta_desc">
+Hướng dẫn tương tác về lý thuyết trò chơi về lý do &amp; chúng ta tin tưởng nhau như thế nào ?
+</p>
+<p id="meta_loading">
+Đang tải...
+</p>
+<p id="meta_on">
+ON
+</p>
+<p id="meta_off">
+OFF
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - TITLE! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="title">
+<span style="font-size:0.75em">SỰ</span><br>
+TIẾN HÓA<br>
+<span style="font-size:0.75em">CỦA LÒNG TIN</span>
+</p>
+<p id="subtitle">
+
+Thời gian chơi: khoảng 30 phút &#8226; by nicky case, july 2017
+
+<!-- TRANSLATION NOTE: UNCOMMENT THE FOLLOWING & ADD YOUR OWN NAME! -->
+
+<br>
+Được dịch bởi <a href="https://www.facebook.com/Monter24112002kk">Vũ Tuấn Kiệt</a> ,March 2021 
+&#8226; 
+<a href="http://ncase.me/trust/">original English version</a>
+
+
+</p>
+
+<p id="loading">
+Đang tải...
+</p>
+<p id="loading_done">
+Chơi &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - INTRO! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="intro">
+Ngay giữa Thế Chiến I lại có hòa bình.
+<br><br>
+
+Giáng sinh năm 1914 tại mặt trận Tây Âu.<br>
+Bỏ ngoài tai lệnh <i>cấm</i> hòa hữu với đối phương, binh lính Anh<br>
+và Đức đã rời bỏ chiến hào, vượt vùng chiến sự để thu hồi<br>
+thi thể đồng đội, tặng quà cho nhau và chơi trò chơi.
+<br><br>
+
+Bây giờ là năm 2017. Tây Âu đã hòa bình cả vài thập kỷ nay, nhưng<br>
+con người lại <i>chả tin tưởng nhau</i> chút nào. Theo các kết quả điều tra, trong 40 năm qua, ngày càng ít người
+nói rằng họ tin tưởng người khác. Vậy câu hỏi là:
+<br><br>
+
+<b>Tại sao, khi hòa bình, bạn bè lại trở thành thù địch?
+	Tại sao, trong chiến tranh, quân thù lại trở thành bằng hữu?</b>
+<br><br>
+
+Tôi nghĩ rằng: <b>game theory</b> này sẽ giúp giải thích về sự thiếu tin tưởng này,
+và làm thế nào để thoát khỏi nó! Để hiểu thêm về vấn đề này, hãy cùng...
+</p>
+<p id="intro_button">
+...chơi một trò chơi. &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ONE OFF! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_you_cooperate">
+bạn<br>hợp tác
+</p>
+
+<p id="label_you_cheat">
+bạn<br>gian lận
+</p>
+
+<p id="label_they_cooperate">
+họ<br>hợp tác
+</p>
+
+<p id="label_they_cheat">
+họ<br>gian lận
+</p>
+
+<p id="label_you">
+bạn<br>↙
+</p>
+<p id="label_them">
+người chơi khác<br>↘
+</p>
+
+<p id="oneoff_0_top">
+
+<b>TRÒ CHƠI CỦA SỰ TIN TƯỞNG</b>
+<br>
+Bạn có một sự lựa chọn.
+Trước mặt bạn là một cái máy: nếu bạn đặt một đồng xu vào máy, thì <i>người chơi khác</i>sẽ nhận được ba đồng - và ngược lại.
+Cả hai bạn đều có thể chọn HỢP TÁC (bỏ tiền xu) hoặc GIAN LẬN (không đặt tiền xu).
+</p>
+
+<p id="oneoff_0_btm">
+<b>Giả sử người chơi khác gian lận và không bỏ tiền vào.</b><br>
+Bạn nên làm gì?
+</p>
+
+<p id="oneoff_1_cheated">
+Chuẩn luôn! Ngu gì mà để nó lừa chứ!
+</p>
+
+<p id="oneoff_1_cooperated">
+Đã biết là nó sẽ chơi bẩn mà sao còn dại thế chứ!
+</p>
+
+<p id="oneoff_1_top">
+Nếu bạn hợp tác &amp; người ta ăn gian, bạn mất 1 xu và đối phương được 3 xu. (điểm số: -1 vs +3) Nhưng, nếu cả 2 cùng ăn gian thì cả 2 chẳng ai được hay mất gì cả. (điểm số: 0 vs 0)
+<b>Thế nên: cứ ĂN GIAN đê:v</b>
+</p>
+
+<p id="oneoff_1_btm">
+<b>Thế còn trong trường hợp người ta chơi đẹp, nhét 1 xu vào,</b><br>
+bạn sẽ làm gì?
+</p>
+
+<p id="oneoff_2_cheated">
+HaHa, bạn quá đểu... y như mình:v
+</p>
+
+<p id="oneoff_2_cooperated">
+Làm người phải thế chứ... <b>đúng không nhỉ??</b>
+</p>
+
+<p id="oneoff_2_top">
+Vì khi cả 2 cùng chơi đẹp, mỗi người mất 1 xu và được 3 xu. (điểm số: +2 vs +2) Nhưng nếu bạn ăn gian &amp; họ trung thực, bạn được 3 xu và đối phương mất 1 xu. (score: +3 vs -1)
+<b>Thế nên: bạn vẫn "nên" ĂN GIAN:)</b>
+</p>
+
+<p id="oneoff_2_btm">
+Và <i>đó</i> chính là vấn đề.
+Tin người thì tốt, nhưng dễ để người khác lợi dụng -- tệ nhất là họ bắn bạn khi bạn thò đầu lên khỏi chiến hào. Đôi khi, hoài nghi mới là câu trả lời đúng!
+Nhưng, điều gì sẽ xảy ra nếu chúng ta chơi trò chơi này...
+</p>
+
+<p id="oneoff_button_next">
+...nhiều hơn một lần? &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ITERATED - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="iterated_intro_top">
+<b>Giờ chúng ta, chơi thật nhé.</b> Bạn sẽ đấu với 5 đối thủ với các "chiến thuật" khác nhau. Với mỗi đối thủ, bạn sẽ chơi 3-7 lượt (Bạn không biết trước số lượt nhé). Bạn có thể tin tưởng họ không? Hay đúng hơn là... họ có thể tin <i>bạn?</i>
+</p>
+
+<p id="iterated_intro_btm">
+Chọn nước đi đầu tiên, <i>thực tế</i> của bạn. <b>Hãy chọn một cách khôn ngoan.</b>
+</p>
+
+<p id="iterated_info_1">
+Đối thủ: [X]/[Y]
+</p>
+</p>
+<p id="iterated_info_2">
+Tổng điểm của bạn: 
+</p>
+
+<p id="iterated_score_start">
+Và tổng số điểm của bạn là...
+</p>
+<p id="iterated_score_1">
+WOW, không bỏ đi dù chỉ là <i>một</i> đồng.
+</p>
+<p id="iterated_score_2">
+Bạn có thể gian lận nhiều hơn, nhưng bạn đã biết dừng lại!
+</p>
+<p id="iterated_score_3">
+Không tệ đâu, chịu đựng tốt đó!
+</p>
+<p id="iterated_score_4">
+Chắc hẳn bạn đã rất cố gắng để trở thành một người tốt!
+</p>
+<p id="iterated_score_5">
+Thật sự: <i>perfect!</i> Bạn thực sự rất là tốt!
+</p>
+<p id="iterated_score_x">
+... tôi không biết bạn đã làm điều đó như thế nào?
+</p>
+<p id="iterated_score_end">
+(điểm thấp nhất &amp;amp; cao nhất có thể có lần lượt là 7 và 49)</p>
+
+<p id="who_were">
+Mà mấy ông tướng vừa chơi với bạn là ai thế nhỉ?
+</p>
+
+<p id="character_tft">
+<b>MÁY COPY:</b>
+Hello! Mới gặp thì mình chơi đẹp, còn sau đấy mình cứ copy cách bạn chơi lượt trước thôi.</p>
+
+<p id="character_all_d">
+<b>LƯU MANH:</b>
+<i>ngu thì chết, tội tình gì:v</i>
+</p>
+
+<p id="character_all_c">
+<b>NGÂY THƠ:</b>
+Yêu em đi &lt;3 Nhà em đầy tiền &lt;3
+</p>
+
+<p id="character_grudge">
+<b>THÙ DAI: </b>
+Ông cẩn thận đấy nhé. Tôi là tôi chơi đẹp lắm, nhưng ông mà chơi bẩn 1 phát LÀ ĐỪNG BAO GIỜ HY VỌNG TÔI TỬ TẾ NỮA NHÉ.</p>
+
+<p id="character_prober">
+<b>THÁM TỬ:</b>
+Đầu tiên tôi do thám. Hợp tác, ăn gian, hợp tác, hợp tác phát nữa. Nếu anh ăn gian, tôi sẽ chơi kiểu <span class="tft">Máy copy</span>.
+Nếu anh trung thực suốt, tôi sẽ chuyển sang làm <span class="all_d">Lưu manh</span>, để lợi dụng anh. Quá cơ bản, anh Watson nhỉ.
+</p>
+
+<p id="characters_teaser">
+Giờ sẽ thế nào nếu...
+</p>
+<p id="characters_button">
+...họ chơi với nhau nhỉ? &rarr;
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - TOURNAMENT! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="place_your_bets">
+Mở giải đấu nào! Giờ mỗi nhân vật sẽ lần lượt chơi với những nhân vật còn lại: 
+tổng cộng là 10 trận đấu với 10 lượt trong mỗi trận.
+<br><br>
+Bạn nghĩ là ai sẽ có tổng điểm <i>sau cùng</i> cao nhất?
+<b>Hãy nghĩ thật kỹ... rồi ĐẶT CƯỢC:</b>
+</p>
+
+<p id="tournament_intro">
+(quên mất ai là ai rồi à? di chuột lên trên các nút để xem lại mô tả về các nhân vật!)</p>
+
+<p id="first_match">
+trận đấu đầu tiên &rarr;
+</p>
+
+<p id="next_match">
+trận đấu tiếp theo &rarr;
+</p>
+
+<p id="match_header_1">
+<b>Trận đấu #[N]:</b> [A] vs [B]
+</p>
+<p id="match_header_2">
+<b>Kết quả các lượt đấu:</b>
+</p>
+<p id="match_header_3">
+<b>Tổng điểm:</b> [A] vs [B]
+</p>
+
+<p id="tournament_1">
+À, tiện đây...
+</p>
+<p id="tournament_2">
+... có khi bạn đang hoài nghi về câu chuyện hòa hoãn tạm thời ngày Giáng sinh. Chắc chỉ là hy hữu thôi chứ?
+</p>
+<p id="tournament_3">
+Nghe như phim thế thôi, nhưng chuyện thế này chẳng phải là độc nhất vô nhị, hay bất thường gì cả.</p>
+<p id="tournament_4">
+Không phải <i>tất cả</i> các chiến hào đều như vậy, nhưng nó khá phổ biến. Nhiều mặt trận cùng nghĩ ra <i>ý tưởng</i>> này, mặc kệ lệnh cấm vô cùng rõ ràng và hà khắc.
+</p>
+<p id="tournament_5">
+Và thực tế là, từ <i>trước</i>> Giáng sinh, một vài mặt trận <i>đã</i>> bí mật đồng ý hòa hoãn với đối phương.
+</p>
+<p id="tournament_6">
+Họ gọi đó là: <b>luật "sống và cho sống".</b>
+Đơn giản là, anh không bắn tôi, tôi không bắn anh. Và luật này rất hiệu quả, ở rất nhiều nơi!</p>
+<p id="tournament_7">
+Có thể bạn vẫn hoài nghi. Thường thì binh lính không tự dưng hòa hoãn với kẻ thù. Liệu có gì đặc biệt ở cái kiểu <i>chiến hào</i> này không nhỉ?</p>
+<p id="tournament_8">
+Có đó, điểm đặc biệt của chiến hào là: khác với hầu hết các kiểu chiến trận khác, binh lính ngày nào cũng phải đối đầu với chính <i>những kẻ địch</i> ngày hôm trước.
+</p>
+<p id="tournament_9">
+<b>Đó là một trò chơi lặp đi lặp lại.</b>Và điều đó tạo nên sự khác biệt cho <i>tất cả</i> mọi người.
+</p>
+<p id="tournament_10">
+Tạm gác lại câu chuyện. Người thắng cuộc của chúng ta là...
+</p>
+
+<p id="the_winner_is">
+(Nổi trống lên...) &rarr;
+</p>
+
+<p id="tournament_winner_1">
+<b class="tft">MÁY COPY!</b>
+</p>
+<p id="tournament_winner_2_yay">
+Chúc mừng, bạn đặt cược chính xác rồi.
+</p>
+<p id="tournament_winner_2_nay">
+(Xin lỗi nhé, [CHAR].)
+</p>
+<p id="tournament_winner_3">
+<span class="tft">Máy copy</span> được biết đến dưới nhiều cái tên. Nguyên tắc vàng, ăn miếng trả miếng, hay... <b>sống và cho sống.</b>
+Đó là lý do vì sao "hòa bình" có thể xuất hiện tại các chiến hào trong Thế Chiến I: khi bạn bị buộc phải chơi với <i>1 nhóm người cụ thể</i> (không phải chỉ là "kẻ địch" chung chung) không biết bao nhiêu lần -- 
+<span class="tft">Máy copy</span> không chỉ thắng trận đánh, mà thắng cả cuộc chiến.
+<br><br>
+Nếu kết quả đã thay đổi khi bạn chơi trò chơi liên tiếp nhiều lượt, vậy chuyện gì sẽ xảy ra nếu bạn chơi...
+</p>
+<p id="tournament_teaser">
+...nhiều <i>giải đấu hơn?</i> &rarr;
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - EVOLUTION! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="evolution_intro">
+Giờ hãy cho xã hội của những người chơi của chúng ta tiến hóa theo thời gian. 1 điệu nhảy 3 bước:
+</p>
+<p id="evolution_intro_1">
+<b>1. CHƠI 1 GIẢI ĐẤU</b><br>
+Cho họ đấu với nhau, và tính tổng số điểm từng người.
+</p>
+<p id="evolution_intro_2">
+<b>2. TIÊU DIỆT NHỮNG KẺ BẠI TRẬN</b><br>
+Loại bỏ 5 người chơi có điểm số thấp nhất. (nếu có tỉ số hòa thì chọn ngẫu nhiên trong số hòa nhau).
+</p>
+<p id="evolution_intro_3">
+<b>3. NHÂN GIỐNG KẺ CHIẾN THẮNG</b><br>
+Nhân bản 5 người có điểm số cao nhất. (nếu có tỉ số hòa thì chọn ngẫu nhiên trong số hòa nhau).
+</p>
+<p id="evolution_intro_footer">
+...và LẶP LẠI, đến khi chán thì thôi. Note: trên thực tế bạn cũng không cần đợi người ta chết & sinh sản để xã hội tiến hóa -- chỉ cần những hành vi "thất bại" mất đi, và những hành vi "thành công" được bắt chước là đủ. Nào...
+</p>
+<p id="evolution_intro_button">
+...hãy cùng xem diễn biến. &rarr;
+</p>
+
+<p id="evo_1">
+Xã hội của chúng ta bắt đầu như sau: 
+<span class="all_c">15 em Ngây thơ</span>,
+<span class="all_d">5 thằng Lưu manh</span>, và
+<span class="tft">5 Máy copy</span>.
+(Ta tạm bỏ qua <span class="grudge">Thù dai</span> &amp; <span class="prober">Thám tử</span> đã).
+<br><br>
+Chúng ta sẽ nhảy điệu "giải đấu-tiêu diệt-nhân giống" tầm chục lần. Đặt cược tiếp chứ nhể! Bạn nghĩ ai sẽ thắng giải đấu <i>đầu tiên</i>?
+<b>ĐẶT CƯỢC LẠI ĐÊ:</b>
+</p>
+
+<p id="evo_2_all_c">
+Có lý, <span class="all_c">Luôn hợp tác</span> đông hơn những người khác ngay bây giờ ...</p>
+<p id="evo_2_all_d">
+Có lý, <span class="all_d">Luôn gian lận</span> có rất nhiều <span class="all_c">Luôn hợp tác</span> để khai thác ...
+</p>
+<p id="evo_2_tft">
+Có lý, <span class="tft">Máy copy</span> đã thắng giải đấu lần trước, tại sao lại không? ...
+</p>
+<p id="evo_2">
+Hãy xem bạn có chính xác không:
+</p>
+
+<p id="label_play_tournament">
+1) Chơi 1 giải đấu
+</p>
+<p id="label_eliminate_bottom_5">
+2) tiêu diệt 5 kẻ thua cuộc
+</p>
+<p id="label_reproduce_top_5">
+3) nhân bản top 5
+</p>
+
+<p id="evo_3_all_c">
+Đúng như mình nghĩ, <span class="all_c">Ngây thơ</span> bị bọn 
+<span class="all_d">Lưu manh</span>, ăn thịt rồi! Nhưng hãy thử chơi thêm vài lượt nữa nhỉ...</p>
+<p id="evo_3_all_d">
+Sadly, you were correct! The <span class="all_d">Always Cheaters</span> won this time, 
+and their numbers increased by 5.
+</p>
+<p id="evo_3_tft">
+Alas, <span class="tft">Copycat</span> did not win – but at least they didn't do as bad
+as <span class="all_c">Always Cooperate</span>. They got eaten up by <span class="all_d">Always Cheat</span>,
+whose numbers have now increased by 5.
+</p>
+<p id="evo_3">
+But let's try a few more rounds of this...
+</p>
+
+<p id="evo_4">
+<span class="all_d">Lưu manh</span> vẫn tiếp tục phát triển, thay thế <span class="all_c">Ngây thơ</span>...
+</p>
+
+<p id="evo_5">
+Xong, mấy em <span class="all_c">Ngây thơ</span> tuyệt chủng rồi. Cơ mà...
+But, wait...
+</p>
+
+<p id="evo_6">
+Đúng rồi: <span class="all_d">Lưu manh</span> giờ lại trở thành nạn nhân! Chúng lợi dụng <span class="all_c">Ngây thơ</span>,
+nhưng khi không còn ai nữa thì chúng gặp phải <span class="tft">Máy copy</span>:
+tốt bụng <i>nhưng</i> không ngu ngốc.
+</p>
+
+<p id="evo_7">
+Bằng cách copy lại hành động của đối phương,
+<span class="tft">Máy copy</span> có thể chơi đẹp với nhau
+, trong khi <span class="all_d">Lưu manh</span> cứ ngồi lừa nhau! Không những thế, <span class="tft">Máy copy</span>
+còn có thể dạy cho <span class="all_d">Lưu manh</span>
+một bài học nhớ đời.
+</p>
+
+<p id="evo_8">
+And so, as a result...
+</p>
+
+<p id="evo_9">
+...<span class="tft">Copycat</span> inherits the earth.
+</p>
+<p id="evo_9_all_c">
+So, although your bet was off -- the nice-but-naive <span class="all_c">Always Cooperators</span>
+were doomed from the start -- in the end, a <i>smart</i> form of niceness prevailed,
+and the <span class="all_d">Always Cheaters</span> were squashed.
+</p>
+<p id="evo_9_all_d">
+So, in the short run you were right - <span class="all_d">Always Cheat</span> won the first few rounds,
+but in the end, its exploitativeness was its downfall.
+</p>
+<p id="evo_9_tft">
+So, in the long run, you were right - <span class="tft">Copycat</span> wins!
+<span class="all_d">Always Cheat</span> may have won in the short run,
+but its exploitativeness was its downfall.
+</p>
+<p id="evo_9_end">
+This reminds me of a quote:
+<br><br>
+<i>"We are punished by our sins, not for them."</i><br>
+~ Elbert Hubbard
+</p>
+<p id="evo_9_btn">
+(oh, and by the way...)
+</p>
+
+<p id="evo_10">
+(...this result is similar even if we put
+<span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> back in:)
+</p>
+
+<p id="evo_autoplay">
+start the evolution process!
+</p>
+<p id="evo_autoplay_stop">
+stop the evolution process
+</p>
+
+<p id="evo_10_followup">
+(Note: sometimes, a few <span class="grudge">Grudgers</span> may stick around,
+because when all players except <span class="grudge">Grudger</span> &amp; <span class="tft">Copycat</span> 
+are eliminated, the two tie.)
+<br><br>
+So, it seems the math of game theory is telling us something:
+that <span class="tft">Copycat's</span> philosophy,
+"Do unto others as you would have them do unto you", may be not just a 
+<i>moral</i> truth, but also a <i>mathematical</i> truth.
+However...
+</p>
+<p id="evo_10_btn">
+...there's a problem: &rarr;
+</p>
+
+<p id="evo_11">
+Look around. The world's full of total jerkwads.
+<br><br>
+If <span class="tft">Copycat</span> is the strategy in this repeated game of trust that's so powerful --
+that even soldiers in World War I trenches independently "evolved" a similar strategy, called "live and let live" -- 
+why, then, are there so many un-trusting, un-trustworthy people?
+What's causing our epidemic of un-trust?
+<br><br>
+A clue's in that sentence itself. "In <i>this</i> repeated game of trust."
+So far we've only talked about change in the players:
+what about <i>a change in the game?</i>
+What could lead to...
+</p>
+<p id="evo_11_btn">
+...the evolution of <i>distrust?</i>
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - DISTRUST - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="distrust_1">
+Before everything goes to heck, let's start with something nice!
+Here's a world filled entirely with <span class="all_c">Always Cooperates</span>,
+except for one <span class="all_d">Always Cheat</span> and one <span class="tft">Copycat</span>.
+<br><br>
+Use the buttons on the right to <b>START</b> the sim,
+go through it <b>step-by-step</b>, or <b>reset</b> it. &rarr;
+</p>
+
+<p id="distrust_2">
+As you already know, <span class="tft">Copycat</span> wins handily in the long run,
+under our current rules!
+<br><br>
+But that's under our <i>current</i> rules, which say that
+players play against each other for <i>10</i> rounds per match.
+Does <span class="tft">Copycat</span> still win at 7 rounds? 5 rounds? 3? 2? 1?
+<br><br>
+<b>Change the number of rounds</b> with the slider below,
+then <b>START</b> the sim, and see what happens.
+Feel free to experiment!
+</p>
+
+<p id="distrust_2_end">
+once you're done playing around, click:
+</p>
+
+<p id="distrust_3">
+As you saw, if you don't play enough rounds, (here: 5 or less)
+<span class="all_d">ALWAYS CHEAT</span> dominates.
+<br><br>
+In 1985, when Americans were asked how many close friends they had,
+the most common answer was "three". In 2004, the most common answer was <i>"zero"</i>.
+We now have fewer friends across class, racial, economic, and political lines,
+because we have fewer friends -- <i>period.</i>
+And as you just discovered for yourself,
+<b>the fewer "repeat interactions" there are, the more distrust will spread.</b>
+<br><br>
+(no, mass media doesn't count:
+it must be <i>two-way</i> interactions between <i>specific individuals</i>.)
+</p>
+<p id="distrust_3_btn">
+and oh, it gets worse... &rarr;
+</p>
+
+<p id="distrust_4">
+There's <i>another</i> way to breed distrust.
+Here are the "payoffs" for the trust game:
+</p>
+<p id="distrust_4_2">
+With the normal payoffs, <span class="tft">Copycat</span> wins.
+But now, <b>change the "both cooperate" reward from +2 to +1</b>,
+then click <b>START</b>.
+Even though +1 is still <i>more</i> than the punishment for both cheating (0)...
+what happens?
+</p>
+<p id="distrust_4_note">
+feel free to play around with different payoffs!
+once you're done, click:
+</p>
+<p id="distrust_4_note_2">
+(simulating: 10 rounds per match)
+</p>
+
+<p id="distrust_5">
+The same thing happens:
+with a lower "win-win" reward, <span class="all_d">Always Cheat</span> takes over.
+Game theory has two powerful ideas about this:
+<br><br>
+<b>"Zero-sum game".</b> This is the sadly common belief that a gain for "us"
+<i>must</i> come at a loss to "them", and vice versa.
+<br><br>
+<b>"Non-zero-sum game".</b> This is when people make the hard effort
+to create a win-win solution! (or at least, avoid a lose-lose)
+Without the non-zero-sum game, <i>trust cannot evolve.</i>
+<br><br>
+Speaking of which,
+let's now look at our third &amp; final barrier to the evolution of trust...
+</p>
+<p id="distrust_5_btn">
+<s>Misteaks</s> Mistakes. &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - NOISE! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="noise_1">
+As cool as <span class="tft">Copycat</span> is, it has a huge, fatal weakness I haven't mentioned yet.
+To understand the problem, let's say two <span class="tft">Copycats</span> are playing against each other:
+</p>
+<p id="noise_1_end">
+Being "nice" players, both their first moves will be:
+</p>
+
+<p id="noise_2">
+And normally, they'd just pay back each others' kindness and sing Kumbaya until the end of time.
+</p>
+<p id="noise_2_end">
+But what if, while trying to reciprocate goodness...
+</p>
+
+<p id="noise_3">
+<b>OH NO</b>
+<br>
+Mistakes, miscommunication, misinterpretations -- accidents happen all the time in real life.
+</p>
+<p id="noise_3_end">
+But if the other person doesn't <i>think</i> it was an accident...
+</p>
+
+<p id="noise_4">
+<b>OH NO TIMES TWO</b>
+<br>
+The other player, being a <span class="tft">Copycat</span>, <i>had</i> to retaliate...
+</p>
+<p id="noise_4_end">
+...and you, being a <span class="tft">Copycat</span> as well, will <i>also</i> have to retaliate...
+</p>
+
+<p id="noise_5">
+Thus, like the Hatfields and McCoys,
+these two <span class="tft">Copycats</span> will spiral into an endless cycle of vengeance...
+that started over a single mistake, long ago.
+</p>
+<p id="noise_5_end">
+Tragic. But now, are there <i>other</i> types of players who can...
+</p>
+<p id="noise_5_btn">
+...deal with mistakes? &rarr;
+</p>
+
+<p id="noise_characters">
+Let's meet some new faces! (or, new hats, anyway)
+</p>
+
+<p id="character_tf2t">
+<b>COPYKITTEN:</b><br>
+Hello! I'm like <span class="tft">Copycat</span>,
+except I Cheat back only after you Cheat me twice in a row.
+After all, the first one could be a mistake! Purrrrr
+</p>
+
+<p id="character_pavlov">
+<b>SIMPLETON:</b><br>
+hi i try start cooperate.
+if you cooperate back, i do <i>same thing</i> as last move, even if it mistake.
+if you cheat back, i do <i>opposite thing</i> as last move, even if it mistake.
+</p>
+
+<p id="character_random">
+<b>RANDOM:</b><br>
+<i>Monkey robot! Ninja pizza tacos! lol i'm so random</i><br>
+(Just plays Cheat or Cooperate randomly with a 50/50 chance)
+</p>
+
+<p id="noise_characters_end">
+Alright, let's see how well these peeps do when they...
+</p>
+<p id="noise_characters_btn">
+...play in a tournament &rarr;
+</p>
+
+<p id="noise_evo_1">
+Let's start with a dozen
+<span class="all_c">Always Cooperates</span>,
+versus our old winner, the fair <span class="tft">Copycat</span>,
+and our three new characters:
+the forgiving <span class="tf2t">Copykitten</span>,
+the dull <span class="pavlov">Simpleton</span>, and
+the silly <span class="random">Random</span>.
+<br><br>
+In each round of a match, players have a small chance of making a mistake. (let's say, 5%)
+Who do you think will come out on top?
+<b>Think carefully, then PLACE YOUR BETS:</b>
+</p>
+
+<p id="noise_evo_2">
+Alright, you bet [CHAR] wins. Let's find out!
+Use the controls to your left to <b>START</b> the sim in quick mode,
+or go through it <b>step-by-step</b>.
+</p>
+<p id="noise_evo_2_2_correct">
+You were correct -- 
+</p>
+<p id="noise_evo_2_2_incorrect">
+Your bet was close, but no cigar -- 
+</p>
+<p id="noise_evo_2_2">
+<span class="pavlov">Simpleton</span> wins!
+This is because <span class="pavlov">Simpleton</span> is actually capable of
+exploiting <span class="all_c">Always Cooperate</span>. They both start cooperating,
+but if <span class="pavlov">Simpleton</span> makes a mistake and cheats,
+since <span class="all_c">Always Cooperate</span> never retaliates,
+<i>it'll keep cheating them</i>.
+</p>
+<p id="noise_evo_2_2_btn">
+Now let's try...
+</p>
+
+<p id="noise_evo_3">
+...the same thing as before, except instead of half-<span class="all_c">Always Cooperate</span>,
+it's half-<span class="all_d">Always Cheat</span>. It's a much <i>less</i> forgiving,
+<i>more</i> hostile environment.
+<br><br>
+Who do you think will win now? <b>Think, then PLACE YOUR BETS:</b>
+</p>
+
+<p id="noise_evo_4">
+You bet on [CHAR]. Again, go through the simulation...
+</p>
+<p id="noise_evo_4_2_correct">
+You were right on the money -- 
+</p>
+<p id="noise_evo_4_2_incorrect">
+Good guess, but someone else took the prize -- 
+</p>
+<p id="noise_evo_4_2">
+<span class="tf2t">Copykitten</span> wins this time!
+That's surprising that with an even <i>meaner</i> starting population,
+<span class="tf2t">Copykitten</span>,
+a <i>more forgiving</i> version of <span class="tft">Copycat</span>,
+was the most successful! (note: <span class="tf2t">Copykitten</span> is so forgiving
+it doesn't even <i>entirely</i> wipe out <span class="tft">Copycat</span>. it shares room)
+<br><br>
+In this case, a bit of "miscommunication" (5% chance of mistake each round) could lead
+to more <i>forgiveness</i>. But is this true for <i>all</i> levels...
+</p>
+<p id="noise_evo_4_2_btn">
+...of miscommunication?
+</p>
+
+<p id="noise_evo_5">
+<b>Use the slider below to change the amount of "miscommunication", then hit START.</b>
+At 5%, <span class="tf2t">Copykitten</span> wins.
+What happens at 0%? Or 20%? Or 50%? (it only goes up to 50%,
+because at that point, <i>every</i> move is a coin flip) 
+</p>
+<p id="noise_evo_5_continue">
+When you're done playing around, click:
+</p>
+
+<p id="noise_evo_6">
+The results turn out something like this:<br>
+<b>At 0%,</b> the fair <span class="tft">Copycat</span> wins!
+<b>At 1% to 9%,</b> the forgiving <span class="tf2t">Copykitten</span> wins!
+<b>At 10% to 49%:</b> the unfair, unforgiving <span class="all_d">Always Cheat</span> wins.
+<b>At 50%,</b> <i>nobody wins ever.</i>
+<br><br>
+This is why "miscommunication" is such an interesting barrier to trust:
+a <i>little</i> bit of it leads to forgiveness,
+but <i>too much</i> and it leads to widespread distrust!
+I think our modern media technology,
+as much as it's helped us increase communication...
+has increased our <i>miscommunication</i> much more.
+<br><br>
+At last, let's experiment with <i>all</i> the numbers, the knobs and sliders.
+Let's play...
+</p>
+<p id="noise_evo_6_btn">
+...in the Sandbox Mode!
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - SANDBOX! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="sandbox_population">
+Start off with this distribution of players:
+</p>
+
+<p id="sandbox_payoffs">
+The payoffs in a one-on-one game are:
+</p>
+<p id="sandbox_reset_payoffs">
+set default
+</p>
+
+<!--
+When translating the following, keep the "[N]", with square brackets,
+as a placeholder for the number. Some of these need double-translations,
+one for the plural version, one for the singular version.
+-->
+
+<p id="sandbox_rules_1">
+Play [N] rounds per match:
+</p>
+<p id="sandbox_rules_1_single">
+Play [N] round per match:
+</p>
+
+<p id="sandbox_rules_2">
+After each tournament, eliminate the bottom [N] players &amp; reproduce the top [N] players:
+</p>
+<p id="sandbox_rules_2_single">
+After each tournament, eliminate the bottom [N] player &amp; reproduce the top [N] player:
+</p>
+
+<p id="sandbox_rules_3">
+During each round, there's a [N]% chance a player makes a mistake:
+</p>
+
+<p id="sandbox_end">
+<b>NOTE: Sandbox Mode is totally optional.</b>
+Feel free to skip it, or play around! Once you're done, let's recap...
+</p>
+<p id="sandbox_end_btn">
+what we learnt today! &rarr;
+</p>
+
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - CONCLUSION! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="conclusion_0">
+Game theory has shown us the three things we need for the evolution of trust:
+</p>
+<p id="conclusion_1_a">
+1. REPEAT INTERACTIONS
+</p>
+<p id="conclusion_1_a2">
+Trust keeps a relationship going,
+but you need the knowledge of possible future repeat interactions <i>before</i> trust can evolve.
+</p>
+<p id="conclusion_2_a">
+2. POSSIBLE WIN-WINS
+</p>
+<p id="conclusion_2_a2">
+You must be playing a non-zero-sum game,
+a game where it's at least possible that <i>both</i> players can be better off -- a win-win.
+</p>
+<p id="conclusion_3_a">
+3. LOW MISCOMMUNICATION
+</p>
+<p id="conclusion_3_a2">
+If the level of miscommunication is <i>too</i> high, trust breaks down.
+But when there's a little bit of miscommunication, it pays to be <i>more</i> forgiving.
+</p>
+<p id="conclusion_4">
+Of course, real-world trust is affected by much more than this.
+There's reputation, shared values, contracts, cultural markers, blah blah blah.
+And let's not forget...
+</p>
+<p id="conclusion_btn">
+...the <i>biggest</i> lesson. &rarr;
+</p>
+
+<p id="outro_1">
+If there's one big takeaway<br>
+from <i>all</i> of game theory, it's this:
+<br><br>
+<b>What the game is, defines what the players do.</b><br>
+Our problem today isn't just that people are losing trust,<br>
+it's that our <i>environment</i> acts against the evolution of trust.
+<br><br>
+That may seem cynical or naive -- that we're "merely" products of our environment --
+but as game theory reminds us, we <i>are</i> each others' environment.
+<b>In the short run, the game defines the players. But in the long run,
+it's us players who define the game.</b>
+<br><br>
+So, do what <i>you</i> can do, to create the conditions necessary to evolve trust.
+Build relationships. Find win-wins. Communicate clearly.
+Maybe then, we can stop firing at each other, get out of our own trenches,
+cross No Man's Land to come together...
+</p>
+
+<p id="outro_1_btn">
+and all learn...
+</p>
+
+<p id="outro_2">
+...to live and let live.
+</p>
+
+<p id="outro_2_credits">
+"A Christmas Truce between Opposing Trenches"
+Illustrated by AC Michael.
+Published in <i>The Illustrated London News</i>, January 9, 1915.
+</p>
+
+<p id="outro_2_btn">
+&lt;3
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - CREDITS! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="credits">
+<span class="credits">
+
+created by:<br>
+<span class="big">NICKY CASE</span><br>
+<a href="http://ncase.me/" target="_blank">play my other shtuff</a>
+•
+<a href="https://twitter.com/ncasenmare" target="_blank">follow my tweeter</a>
+<br>
+<a href="https://github.com/ncase/trust/#play-it-here-httpncasemetrust" target="_blank">download the music &amp; source code</a>
+
+<span class="divider"></span>
+
+based off robert axelrod's 1984 book,<br>
+<span class="big">"THE EVOLUTION OF COOPERATION"</span><br>
+<a href="notes" target="_blank">read my footnotes for this game</a>
+
+<span class="divider"></span>
+
+lots of love and thanks to<br>
+<span class="big">MY PATREON SUPPORTERS</span><br>
+<a href="peeps" target="_blank">see my drawings of 'em</a>
+•
+<a href="https://www.patreon.com/ncase" target="_blank">throw coins at me on patreon &lt;3</a>
+
+<span class="divider"></span>
+
+p.s: want more learning-by-playing?<br>
+check out 
+<a href="http://explorabl.es/" target="_blank">explorable explanations</a>!
+
+</span>
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - THE PLAYERS - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_tft">Copycat</p>
+<p id="label_short_tft">
+copycat
+</p>
+<p id="icon_tft">
+<span class="tft">
+	<span class="icon"></span>
+	<span class="icon_label">Copycat</span>
+</span>
+</p>
+
+<p id="label_all_d">Always Cheat</p>
+<p id="label_short_all_d">
+cheater
+</p>
+<p id="icon_all_d">
+<span class="all_d">
+	<span class="icon"></span>
+	<span class="icon_label">All Cheat</span>
+</span>
+</p>
+
+<p id="label_all_c">Always Cooperate</p>
+<p id="label_short_all_c">
+cooperator
+</p>
+<p id="icon_all_c">
+<span class="all_c">
+	<span class="icon"></span>
+	<span class="icon_label">All Cooperate</span>
+</span>
+</p>
+
+<p id="label_grudge">Grudger</p>
+<p id="label_short_grudge">
+grudger
+</p>
+<p id="icon_grudge">
+<span class="grudge">
+	<span class="icon"></span>
+	<span class="icon_label">Grudger</span>
+</span>
+</p>
+
+<p id="label_prober">Detective</p>
+<p id="label_short_prober">
+detective
+</p>
+<p id="icon_prober">
+<span class="prober">
+	<span class="icon"></span>
+	<span class="icon_label">Detective</span>
+</span>
+</p>
+
+<p id="label_tf2t">Copykitten</p>
+<p id="label_short_tf2t">
+copykitten
+</p>
+<p id="icon_tf2t">
+<span class="tf2t">
+	<span class="icon"></span>
+	<span class="icon_label">Copykitten</span>
+</span>
+</p>
+
+<p id="label_pavlov">Simpleton</p>
+<p id="label_short_pavlov">
+simpleton
+</p>
+<p id="icon_pavlov">
+<span class="pavlov">
+	<span class="icon"></span>
+	<span class="icon_label">Simpleton</span>
+</span>
+</p>
+
+<p id="label_random">Random</p>
+<p id="label_short_random">
+random
+</p>
+<p id="icon_random">
+<span class="random">
+	<span class="icon"></span>
+	<span class="icon_label">Random</span>
+</span>
+</p>
+
+<p id="forgot_whos_who">
+(forgot who's who? hover buttons to see descriptions of each character!)
+</p>
+<p id="who_tft">
+Starts with Cooperate. Then, it simply repeats whatever YOU did in the last round.
+</p>
+<p id="who_all_d">
+Always cheats.
+</p>
+<p id="who_all_c">
+Always cooperates.
+</p>
+<p id="who_grudge">
+Starts with Cooperate, and keeps cooperating until you cheat it even once.
+Afterwards, it always plays Cheat.
+</p>
+<p id="who_prober">
+Starts with: Cooperate, Cheat, Cooperate, Cooperate.
+Afterwards, if you ever retaliate with a Cheat, it plays like a Copycat.
+Otherwise, it plays like an Always Cheat.
+</p>
+<p id="who_tf2t">
+Starts with Cooperate.
+Only retaliates with a Cheat if you cheated it TWICE in a row.
+</p>
+<p id="who_pavlov">
+Starts with Cooperate.
+Then, if you cooperated in last round, it repeats its last move (even if it was an accident).
+But if you cheated in last round, it switches its last move (even if it was an accident).
+</p>
+<p id="who_random">
+Randomly cheats or cooperates with 50-50 chance
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - SMALL LABELS! - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_cooperate">
+cooperate
+</p>
+
+<p id="label_cheat">
+cheat
+</p>
+
+<p id="label_play">
+play
+</p>
+
+<p id="label_start">
+START
+</p>
+
+<p id="label_stop">
+STOP
+</p>
+
+<p id="label_step">
+step
+</p>
+
+<p id="label_reset">
+reset
+</p>
+
+<p id="label_population">
+population
+</p>
+
+<p id="label_payoffs">
+payoffs
+</p>
+
+<p id="label_rules">
+rules
+</p>
+
+<p id="label_next">
+next &rarr;
+</p>
+
+<p id="label_continue">
+continue
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - NAVIGATING CHAPTERS - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="chapter_intro">
+0. Introduction
+</p>
+<p id="chapter_oneoff">
+1. One Game
+</p>
+<p id="chapter_iterated">
+2. Repeated Game
+</p>
+<p id="chapter_tournament">
+3. One Tournament
+</p>
+<p id="chapter_evolution">
+4. Repeated Tournament
+</p>
+<p id="chapter_distrust">
+5. The Evolution of Distrust
+</p>
+<p id="chapter_noise">
+6. Making Mistaeks
+</p>
+<p id="chapter_sandbox">
+7. Sandbox Mode
+</p>
+<p id="chapter_conclusion">
+8. Conclusion
+</p>
+<p id="chapter_credits">
+9. Credits
+</p>
