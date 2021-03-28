@@ -1,1 +1,1 @@
-https://vutuankiet.github.io/game/
+https://vutuankiet.github.io/game/Evolution/index.html
