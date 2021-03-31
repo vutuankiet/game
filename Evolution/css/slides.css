@@ -18,7 +18,7 @@ body{
 
 	font-family: 'FuturaHandwritten';
 	color: #333;
-	font-size: 16px;
+	font-size: 20px;
 
 }
 #preloader{
@@ -204,6 +204,8 @@ s{
 	
 	font-family: 'FuturaHandwritten';
 	color: #000;
+	font-size: 24px;
+
 	width: 180px;
 	height: 30px;
 	text-align: center;
@@ -249,7 +251,8 @@ s{
     top: 18px;*/
 }
 .button[size=short] #hitbox{
-	width:115px;
+	width:125px;
+	height: 35px;
 }
 .button[size=long]{
 	transform-origin: 172.5px 27.5px;
@@ -293,10 +296,8 @@ s{
 }
 #sandbox_tabs .hitbox{
 	cursor: pointer;
-	font-size: 15px;
+	font-size: 25px;
 	top: 22px;
-	text-align: inherit;
-	font-weight: bold;
 }
 #sandbox_tabs .sandbox_page{
 	width: 433px;
