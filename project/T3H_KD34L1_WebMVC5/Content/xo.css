@@ -1,0 +1,27 @@
+﻿body {
+}
+
+
+.box{
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color:lightgreen;
+    transition: transform 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    border-color: lightgreen;
+}
+
+.box-x{
+    color: blue;
+}
+
+.box-o{
+    color: red;
+}
